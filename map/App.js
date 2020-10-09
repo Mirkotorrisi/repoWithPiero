@@ -30,6 +30,7 @@ export default function App() {
       <Text>modifica jonny 2</Text>
       <Text>modifica jonny 2</Text>
       <Text>modifica jonny 2</Text>
+      <Text>modifica mitko 2</Text>
 
 
       <MapView
