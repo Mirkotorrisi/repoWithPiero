@@ -28,6 +28,9 @@ export default function App() {
       <Text>modifica jonny</Text>
 
       <Text>modifica jonny 2</Text>
+      <Text>modifica jonny 2</Text>
+      <Text>modifica jonny 2</Text>
+
 
       <MapView
         provider={PROVIDER_GOOGLE}
