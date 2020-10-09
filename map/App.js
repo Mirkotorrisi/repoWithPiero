@@ -25,11 +25,9 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-<<<<<<< HEAD
       <Text><a href="www.google.com">Ciao</a></Text>
-=======
       <Text>modifica jonny</Text>
->>>>>>> 04df5d0d35bf0e8d7d92a8d1815b408722ce7508
+      <Text>modifica mirko</Text>
       <MapView
         provider={PROVIDER_GOOGLE}
         style={styles.map}
