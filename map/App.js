@@ -26,6 +26,9 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>modifica jonny</Text>
+
+      <Text>modifica jonny 2</Text>
+
       <MapView
         provider={PROVIDER_GOOGLE}
         style={styles.map}
