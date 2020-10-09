@@ -5,6 +5,7 @@ import MapView, { Marker, PROVIDER_GOOGLE } from 'react-native-maps';
 
 
 const handlePress = (pos) => {
+  console.log(pos)
   Linking.openURL(`https://www.google.com/maps/dir/?api=1&destination=${pos.latitude},${pos.longitude}&travelmode=driving`)
 }
 let position = {
@@ -21,19 +22,10 @@ let position3 = {
 }
 export default function App() {
 
-
-
   return (
     <View style={styles.container}>
-      <Text><a href="www.google.com">Ciao</a></Text>
       <Text>modifica jonny</Text>
-<<<<<<< HEAD
       <Text>modifica mirko</Text>
-=======
-
-      <Text>modifica jonny 2</Text>
-
->>>>>>> 72ae7c13b8c40b841f45753337e827a70b3efb26
       <MapView
         provider={PROVIDER_GOOGLE}
         style={styles.map}
@@ -49,21 +41,21 @@ export default function App() {
           coordinate={position}
           title={"marker.title"}
           description={"marker.description"}
-          onPress={(position) => handlePress(position)}
+          onPress={() => handlePress(position)}
         />
         <Marker
           key={2}
           coordinate={position2}
           title={"marker.title"}
           description={"marker.description"}
-          onPress={(position2) => handlePress(position2)}
+          onPress={() => handlePress(position2)}
         />
         <Marker
           key={3}
           coordinate={position3}
           title={"marker.title"}
           description={"marker.description"}
-          onPress={(position3) => handlePress(position3)}
+          onPress={() => handlePress(position3)}
         />
 
       </MapView>
