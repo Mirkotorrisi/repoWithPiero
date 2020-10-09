@@ -21,8 +21,6 @@ let position3 = {
 }
 export default function App() {
 
-
-
   return (
     <View style={styles.container}>
       <Text>modifica jonny</Text>
@@ -31,6 +29,7 @@ export default function App() {
       <Text>modifica jonny 2</Text>
       <Text>modifica jonny 2</Text>
       <Text>modifica mitko 2</Text>
+      <Text>modifica jonny 2</Text>
 
 
       <MapView
@@ -48,21 +47,21 @@ export default function App() {
           coordinate={position}
           title={"marker.title"}
           description={"marker.description"}
-          onPress={(position) => handlePress(position)}
+          onPress={() => handlePress(position)}
         />
         <Marker
           key={2}
           coordinate={position2}
           title={"marker.title"}
           description={"marker.description"}
-          onPress={(position2) => handlePress(position2)}
+          onPress={() => handlePress(position2)}
         />
         <Marker
           key={3}
           coordinate={position3}
           title={"marker.title"}
           description={"marker.description"}
-          onPress={(position3) => handlePress(position3)}
+          onPress={() => handlePress(position3)}
         />
 
       </MapView>
