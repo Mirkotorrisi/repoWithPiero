@@ -25,7 +25,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text><a href="www.google.com">Ciao</a></Text>
       <MapView
         provider={PROVIDER_GOOGLE}
         style={styles.map}
